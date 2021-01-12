@@ -72,8 +72,7 @@ ul li i {
   position: absolute;
   display: none;
   flex-direction: column;
-  top: 11%;
-  margin-top: -3px;
+  top: 70px;
   padding: 30px;
   background-color: #fff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
@@ -110,4 +109,16 @@ ul li i {
 
 .active {
   display: flex;
+}
+
+.frecciasu {
+  display: none;
+}
+
+.display {
+  display: inline-block;
+}
+
+.none {
+  display: none;
 }

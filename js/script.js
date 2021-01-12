@@ -8,23 +8,25 @@ $(document).ready(function(){
             $('.drop-account').toggleClass('active');
         }
         
-        if (indice == 5) {
+        else if (indice == 4) {
             $('.drop-prodotti').toggleClass('active');
         }
 
-        if (indice == 7) {
+        else if (indice == 5) {
             $('.drop-azienda').toggleClass('active');
         }
 
-        if (indice == 9) {
+        else if (indice == 6) {
             $('.drop-aiuto').toggleClass('active');
         }
 
-        if (indice == 11) {
+        else if (indice == 7) {
             $('.drop-lingua').toggleClass('active');
+            $('.frecciasu').toggleClass('display');
+            $('.frecciagiu').toggleClass('none');
+
         }
         
-
         
     })
 });
