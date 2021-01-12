@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  color: dimgrey;
 }
 
 nav {
+  height: 115px;
   display: flex;
   padding: 5px 0;
   box-shadow: 1px 1px 5px #00000043;
@@ -16,12 +18,13 @@ nav {
   text-align: center;
 }
 .logo img {
-  width: 30%;
+  height: 90%;
 }
 
 .main-menu {
   flex-grow: 2;
 }
+
 ul {
   height: 100%;
   display: flex;
@@ -29,6 +32,14 @@ ul {
   align-items: center;
   justify-content: space-around;
   font-size: 1.3rem;
+}
+
+ul li {
+  border-bottom: 3px solid transparent;
+}
+ul li:hover {
+  border-bottom: 3px solid coral;
+  cursor: pointer;
 }
 
 ul li i {
@@ -47,6 +58,56 @@ ul li i {
   background-color: coral;
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
   border-radius: 20px;
   box-shadow: 1px 1px 5px #00000043;
+  transition: 500ms;
+}
+
+.pulsante a:hover {
+  transform: scale(1.1);
+}
+
+.drop {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  top: 11%;
+  margin-top: -3px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.drop-account {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.drop-prodotti {
+  left: 58%;
+  transform: translateX(-50%);
+}
+
+.drop-azienda {
+  left: 65%;
+  transform: translateX(-50%);
+}
+
+.drop-aiuto {
+  left: 72%;
+  transform: translateX(-50%);
+}
+
+.drop-lingua {
+  left: 78%;
+  transform: translateX(-50%);
+}
+
+.drop a {
+  padding: 15px 0;
+}
+
+.active {
+  display: flex;
 }
