@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 15px 0;
+}
+
+.logo {
+  width: 20%;
+  text-align: center;
+}
+.logo img {
+  width: 30%;
+}
+
+.main-menu {
+  flex-grow: 2;
+}
+ul {
+  height: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.3rem;
+}
+
+ul li {
+}
+
+ul li i {
+  font-size: 1rem;
+}
