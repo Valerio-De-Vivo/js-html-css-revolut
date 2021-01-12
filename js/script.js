@@ -31,8 +31,3 @@ $(document).ready(function(){
     })
 });
 
-function dropdown () {
-    if (indice == 11) {
-        $('.drop-lingua').toggleClass('active');
-    }
-}
