@@ -2,6 +2,13 @@ $(document).ready(function(){
     $('.main-menu li').hover(function(){
         
         $(this).find('.drop').toggleClass('active');
+
+        if ($(this).index() == 7) {
+        
+            $('.frecciasu').toggleClass('display');
+            $('.frecciagiu').toggleClass('none');
+            
+        }
         
     })
 });
