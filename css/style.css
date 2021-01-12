@@ -7,7 +7,8 @@
 
 nav {
   display: flex;
-  padding: 15px 0;
+  padding: 5px 0;
+  box-shadow: 1px 1px 5px #00000043;
 }
 
 .logo {
@@ -30,9 +31,22 @@ ul {
   font-size: 1.3rem;
 }
 
-ul li {
-}
-
 ul li i {
   font-size: 1rem;
+}
+
+.pulsante {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pulsante a {
+  padding: 15px 50px;
+  background-color: coral;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px #00000043;
 }
