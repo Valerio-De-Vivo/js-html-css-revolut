@@ -34,6 +34,12 @@ ul {
   font-size: 1.3rem;
 }
 
+.drop a:hover {
+  background-color: coral;
+  color: #fff;
+  box-shadow: 1px 1px 5px #00000043;
+}
+
 ul li {
   border-bottom: 3px solid transparent;
 }
@@ -73,9 +79,11 @@ ul li i {
   display: none;
   flex-direction: column;
   top: 70px;
-  padding: 30px;
+  padding: 10px;
   background-color: #fff;
+  border-radius: 15px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  font-size: 1.1rem;
 }
 
 .drop-account {
@@ -104,7 +112,8 @@ ul li i {
 }
 
 .drop a {
-  padding: 15px 0;
+  padding: 15px 30px;
+  border-radius: 20px;
 }
 
 .active {
